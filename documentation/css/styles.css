@@ -1,0 +1,180 @@
+/* Structure */
+
+html {
+	height:100%;
+}
+
+body {
+	height:100%;
+	font-size:62.5%;
+	margin:40px;
+	padding:0;
+	max-width:100%;
+	background-color:#FFF;
+	min-width:300px;
+}
+
+pre {
+	font-family: monospace;
+	font-size: 12px;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	padding: 20px;
+	border: 1px solid #e5e5e5;
+	line-height: 1.5em;
+}
+
+a {
+	text-decoration:none;
+	color: #000;
+}
+
+.splashText a {
+	font-weight: bold;
+}
+
+a:hover {		
+	color:#2880a1;		
+}
+
+img {
+	width: auto;
+	max-width: 100%;
+}
+
+.centered {
+	text-align:center;
+}
+
+.btnToTop {
+	padding-top:30px; text-decoration:underline;
+}
+
+.helloText {
+	width:100%; max-width:800px; display:inline-block; text-align:center; margin-top:30px; margin-bottom:50px;
+}
+
+.splashText {
+	width:100%; max-width:700px; text-align:left; margin:0 auto;
+}
+
+.block1200 {
+	width:100%; max-width:800px; margin:0 auto;
+}
+
+.tip {
+	width: 100%;
+	background-color:#f0f0f0;
+	padding: 20px;
+	border: 1px solid #9bc2c8;
+	color: #2880a1;
+	font-size: 14px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.border {
+	border: 1px solid #2d2d2d;
+	margin: 3px;
+}
+
+.splashHdr {
+	padding-bottom:20px;
+}
+
+.headerBox {
+	background-color:#9bc2c8;
+}
+
+.headerBoxPadding {
+	padding:30px; text-align:center;
+}
+
+.footer {
+	width:100%; display:inline-block; text-align:center; margin-bottom:40px;
+}
+
+.tableof {
+	background-color: #d33;
+}
+
+.tableof-inner {
+	padding:30px;
+	text-align:center;
+	color: #fff;
+}
+
+.tableof-inner a {
+	color: #fff;
+}
+
+.tableof-inner a:hover {
+	color: #2d2d2d;
+}
+
+.textleft {
+	text-align:left;
+}
+
+.notifications {
+    padding: 20px 40px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.notifications.congratulations {
+	background-color: #6dbf3b;
+}
+    
+.notifications.information {
+	background-color: #00b4d6;
+}
+
+.notifications.alert {
+	background-color: #f0d156;
+}
+
+.notifications.error {
+	background-color: #f5523c;
+}
+
+.mr15 {
+	margin-right: 15px;
+}
+
+.ml0 {
+	margin-left: 0;
+}
+
+.pl20 {
+	padding-left: 20px;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 480px) {
+
+	body {
+		margin:10px;
+	}
+
+	.logo {
+		margin-left:0px; margin-top:15px;
+	}
+
+	.helloText {
+		width:75%;
+	}
+
+	.splashText {
+		width:95%;
+	}
+
+}

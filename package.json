@@ -1,0 +1,27 @@
+{
+  "name": "indiega",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp default"
+  },
+  "author": "dizmarket",
+  "license": "ISC",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.megahost.su/dmitry.s/indiega.git"
+  },
+  "keywords": [],
+  "description": "indiega",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^4.0.1",
+    "npm": "^6.1.0"
+  }
+}
